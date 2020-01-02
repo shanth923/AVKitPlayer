@@ -14,6 +14,8 @@
 		3120E94C238D3FC000E7CF75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3120E94A238D3FC000E7CF75 /* LaunchScreen.storyboard */; };
 		3120E957238D3FC000E7CF75 /* AVKitPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120E956238D3FC000E7CF75 /* AVKitPlayerTests.swift */; };
 		3120E962238D3FC000E7CF75 /* AVKitPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120E961238D3FC000E7CF75 /* AVKitPlayerUITests.swift */; };
+		3120E970238D404C00E7CF75 /* car.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3120E96F238D404C00E7CF75 /* car.mp4 */; };
+		3120E976238D475100E7CF75 /* BadBoy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3120E975238D475100E7CF75 /* BadBoy.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3120E95D238D3FC000E7CF75 /* AVKitPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVKitPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3120E961238D3FC000E7CF75 /* AVKitPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVKitPlayerUITests.swift; sourceTree = "<group>"; };
 		3120E963238D3FC000E7CF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3120E96F238D404C00E7CF75 /* car.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = car.mp4; path = ../../Downloads/car.mp4; sourceTree = "<group>"; };
+		3120E975238D475100E7CF75 /* BadBoy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BadBoy.mp3; path = ../../../Downloads/BadBoy.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		3120E935238D3FB900E7CF75 = {
 			isa = PBXGroup;
 			children = (
+				3120E96F238D404C00E7CF75 /* car.mp4 */,
 				3120E940238D3FB900E7CF75 /* AVKitPlayer */,
 				3120E955238D3FC000E7CF75 /* AVKitPlayerTests */,
 				3120E960238D3FC000E7CF75 /* AVKitPlayerUITests */,
@@ -101,6 +106,7 @@
 				3120E943238D3FB900E7CF75 /* ViewController.swift */,
 				3120E945238D3FB900E7CF75 /* Main.storyboard */,
 				3120E948238D3FC000E7CF75 /* Assets.xcassets */,
+				3120E975238D475100E7CF75 /* BadBoy.mp3 */,
 				3120E94A238D3FC000E7CF75 /* LaunchScreen.storyboard */,
 				3120E94D238D3FC000E7CF75 /* Info.plist */,
 			);
@@ -230,8 +236,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3120E94C238D3FC000E7CF75 /* LaunchScreen.storyboard in Resources */,
+				3120E976238D475100E7CF75 /* BadBoy.mp3 in Resources */,
 				3120E949238D3FC000E7CF75 /* Assets.xcassets in Resources */,
 				3120E947238D3FB900E7CF75 /* Main.storyboard in Resources */,
+				3120E970238D404C00E7CF75 /* car.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
